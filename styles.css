@@ -92,6 +92,7 @@ button {
     display: flex;
     border: #084292;
     box-sizing: 4px;
+    margin: 100px;
 
 }
 
@@ -105,4 +106,32 @@ button {
 .image > .caption {
     text-wrap: wrap;
     width: 50%;
+}
+
+
+.mid-three {
+    background-color: rgb(182, 231, 231);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.qoute {
+    width: 65%;
+    text-wrap: wrap;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.author {
+
+    width: 5%;
+    font-size: 20px;
+    font-weight: 300;
+    align-self:last baseline;
+    margin: 10px 225px;
+
 }
