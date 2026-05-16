@@ -185,10 +185,10 @@ button {
 .modal {
     background-color: #3882f6;
     border-radius: 10px;
-    padding: 40px 80px;
+    padding: 40px 40px;
     display: flex;
-    gap: 20px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .modal-line-one {
@@ -213,6 +213,7 @@ button {
     border: 2px solid white;
     border-radius: 10px;
     padding: 5px;
+    margin-left: 60px;
 }
 
 .footer {
